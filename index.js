@@ -3,7 +3,7 @@
 import Button from './src/components/Button.js';
 import calculateSum from './src/utils/calculateSum.js';
 const index = () => {
-    <Button>Button</Button>
+    return calculateSum(4,5);
 }
 
 export default index;
